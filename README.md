@@ -1,3 +1,18 @@
+# Lift Simulation Challenge
+
+## TODO:
+- [ ] Entry Page to Input Lift & No. of Floors
+- [ ] Custom Lift & floor UI acc to input
+- [ ] Logic For Lift Simulation
+  - [ ] Data Store to store the states
+  - [ ] JS Engine/Contoller(v1) for Lift movement
+  - [ ] Upon clicking a particular button on the floor, a lift goes to that floor
+  - [ ] Lift having doors open in 2.5s, then closing in another 2.5s
+  - [ ] Lift moving at 2s per floor
+  - [ ] Lift stopping at every floor where it was called
+- [ ] Mobile Friendly Design
+- [ ] Additional elements to make UI look good
+
 # Lift-Simulation
 
 Create a web app where you can simulate lift mechanics for a client
