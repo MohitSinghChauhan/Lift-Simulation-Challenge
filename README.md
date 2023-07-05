@@ -2,6 +2,7 @@
 
 ## TODO:
 - [x] Entry Page to Input Lift & No. of Floors
+- [ ] Dummy Lift Simulation UI
 - [ ] Custom Lift & floor UI acc to input
 - [ ] Logic For Lift Simulation
   - [ ] Data Store to store the states
