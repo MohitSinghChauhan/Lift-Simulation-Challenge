@@ -1,7 +1,7 @@
 # Lift Simulation Challenge
 
 ## TODO:
-- [ ] Entry Page to Input Lift & No. of Floors
+- [x] Entry Page to Input Lift & No. of Floors
 - [ ] Custom Lift & floor UI acc to input
 - [ ] Logic For Lift Simulation
   - [ ] Data Store to store the states
