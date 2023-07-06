@@ -40,18 +40,19 @@
 }
 
 .floors-container {
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw; */
+  /* height: 100vh; */
   /* background-color: #bwhitebb; */
   display: flex;
   flex-direction: column-reverse;
   gap: 20px;
-  align-items: center;
-  padding-bottom: 100px;
+  align-items: flex-start;
+  margin-inline: 100px;
+  padding-block: 100px;
 }
 
 .floor {
-  width: 80%;
+  width: max-content;
   border: 1px solid black;
   height: 100px;
   display: flex;
@@ -62,7 +63,7 @@
 }
 
 .floor-button-container {
-  flex-basis: 5%;
+  flex-basis: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -77,17 +78,18 @@
   display: flex;
   justify-content: flex-start;
   gap: 20px;
+  height: 78px;
+  align-items: center;
 }
 
 .floor-number {
-  flex-basis: 5%;
-  display: flex;
-  flex-direction: column;
+  flex-basis: 20px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
   border: 1px solid orchid;
   background: #fff;
+  padding: 10px;
 }
 
 .lift {
