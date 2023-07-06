@@ -3,7 +3,7 @@
 ## TODO:
 - [x] Entry Page to Input Lift & No. of Floors
 - [x] Dummy Lift Simulation UI
-- [ ] Custom Lift & floor UI acc to input
+- [x] Custom Lift & floor UI acc to input
 - [ ] Logic For Lift Simulation
   - [ ] Data Store to store the states
   - [ ] JS Engine/Contoller(v1) for Lift movement
@@ -11,7 +11,7 @@
   - [ ] Lift having doors open in 2.5s, then closing in another 2.5s
   - [ ] Lift moving at 2s per floor
   - [ ] Lift stopping at every floor where it was called
-- [ ] Mobile Friendly Design
+- [x] Mobile Friendly Design
 - [ ] Additional elements to make UI look good
 
 # Lift-Simulation
