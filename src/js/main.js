@@ -123,6 +123,9 @@ const simulateLifts = () => {
 
   const requestLift = (requestedFloor) => {
     const selectedLift = selectLift(requestedFloor);
+    if (selectedLift === null) {
+      return;
+  }
     selectedLift.targetFloor = requestedFloor;
     moveLift(selectedLift);
   };
@@ -160,18 +163,22 @@ const simulateLifts = () => {
         minDistance = distance;
         selectedLift = lift;
       }
+      //* If any lift already transitioning to target floor 
+      if(lift.targetFloor==floor){
+        return null;
+      }
     }
 
     // If no stationary lifts are available, find the nearest lift
-    if (!selectedLift) {
-      for (const lift of lifts) {
-        const distance = Math.abs(lift.currentFloor - floor);
-        if (distance < minDistance) {
-          minDistance = distance;
-          selectedLift = lift;
-        }
-      }
-    }
+    // if (!selectedLift) {
+    //   for (const lift of lifts) {
+    //     const distance = Math.abs(lift.currentFloor - floor);
+    //     if (distance < minDistance) {
+    //       minDistance = distance;
+    //       selectedLift = lift;
+    //     }
+    //   }
+    // }
 
     return selectedLift;
   };
